@@ -1,0 +1,21 @@
+{
+    "menu_id" : "pointerfix_settings_menu",
+    "parent_menu_id" : "blt_options",
+    "title" : "pointerfix_title",
+    "description" : "pointerfix_desc",
+    "back_callback" : "pointerfix_save",
+    "items" : [
+		{
+			"type" : "slider",
+			"id" : "pointerfix_settings_slider",
+			"title" : "pointerfix_slider_title",
+			"description" : "pointerfix_slider_desc",
+			"callback" : "set_csens_mult",
+			"value" : "csens_mult",
+			"default_value" : 1,
+			"max" : 2.5,
+			"min" : 0.01,
+			"step" : 0.01
+		}
+	]
+}

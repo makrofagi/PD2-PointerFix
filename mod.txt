@@ -1,0 +1,16 @@
+{
+	"name" : "Mouse speed fix-ish",
+	"description" : "allows setting a multiplier for the menu cursor",
+	"author" : "fagi",
+	"blt_version" : 2,
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "pointerfix.lua"
+		},
+		{
+			"hook_id" : "lib/managers/mousepointermanager",
+			"script_path" : "mouse_move.lua"
+		}
+	]
+}

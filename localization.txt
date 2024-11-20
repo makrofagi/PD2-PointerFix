@@ -1,0 +1,8 @@
+{
+	"pointerfix_title" : "PointerFix",
+	"pointerfix_desc" : "Adjust your cursor speed",
+
+	"pointerfix_slider_title" : "Multiplier",
+	"pointerfix_slider_desc" : "Adjust your cursor speed",
+
+}
